@@ -1,0 +1,1198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 11.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="11.0">
+ <Namespaces>
+  <Namespace Name="Smulator.Disk.SSD.NetworkGenerator">
+   <Messages>
+    <Message Id="SSD" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'SSD' in namespace name 'Smulator.Disk.SSD.NetworkGenerator' by changing it to 'Ssd'.</Issue>
+    </Message>
+    <Message Id="Smulator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Smulator' in namespace name 'Smulator.Disk.SSD.NetworkGenerator'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+ </Namespaces>
+ <Targets>
+  <Target Name="E:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator\bin\x64\Debug\Smulator.Disk.SSD.NetworkGenerator.dll">
+   <Modules>
+    <Module Name="smulator.disk.ssd.networkgenerator.dll">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'Smulator.Disk.SSD.NetworkGenerator.dll' with a strong name key.</Issue>
+      </Message>
+      <Message Id="SSD" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+       <Issue Name="Assembly" Certainty="85" Level="Error">Correct the casing of 'SSD' in assembly name 'Smulator.Disk.SSD.NetworkGenerator.dll' by changing it to 'Ssd'.</Issue>
+      </Message>
+      <Message Id="Smulator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+       <Issue Name="Assembly" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Smulator' in assembly name 'Smulator.Disk.SSD.NetworkGenerator.dll'.</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Error">Mark 'Smulator.Disk.SSD.NetworkGenerator.dll' with CLSCompliant(true) because it exposes externally visible types.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="Smulator.Disk.SSD.NetworkGenerator">
+       <Types>
+        <Type Name="ControllerGenerator" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#BuildControllerBus(System.String,Smulator.Disk.SSD.NetworkGenerator.ControllerParameterSet,Smulator.Disk.SSD.NetworkGenerator.FlashChipParameterSet,Smulator.Disk.SSD.NetworkGenerator.NetworkParameterSet,Smulator.Disk.SSD.Components.FlashChip[][],System.String,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="RT" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="29">In member 'ControllerGenerator.BuildControllerBus(string, ControllerParameterSet, FlashChipParameterSet, NetworkParameterSet, FlashChip[][], string, int)', correct the casing of 'RT' in parameter name 'RTLogFilePath' by changing it to 'rt'.</Issue>
+            </Message>
+            <Message Id="Params" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="29">In method 'ControllerGenerator.BuildControllerBus(string, ControllerParameterSet, FlashChipParameterSet, NetworkParameterSet, FlashChip[][], string, int)', correct the spelling of 'Params' in parameter name 'ctrlParams' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="29">In method 'ControllerGenerator.BuildControllerBus(string, ControllerParameterSet, FlashChipParameterSet, NetworkParameterSet, FlashChip[][], string, int)', correct the spelling of 'Params' in parameter name 'flashChipParams' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="29">In method 'ControllerGenerator.BuildControllerBus(string, ControllerParameterSet, FlashChipParameterSet, NetworkParameterSet, FlashChip[][], string, int)', correct the spelling of 'Params' in parameter name 'netParams' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'ControllerGenerator.BuildControllerBus(string, ControllerParameterSet, FlashChipParameterSet, NetworkParameterSet, FlashChip[][], string, int)', validate parameter 'ctrlParams' before using it.</Issue>
+            </Message>
+            <Message Id="2" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'ControllerGenerator.BuildControllerBus(string, ControllerParameterSet, FlashChipParameterSet, NetworkParameterSet, FlashChip[][], string, int)', validate parameter 'flashChipParams' before using it.</Issue>
+            </Message>
+            <Message Id="3" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'ControllerGenerator.BuildControllerBus(string, ControllerParameterSet, FlashChipParameterSet, NetworkParameterSet, FlashChip[][], string, int)', validate parameter 'netParams' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BuildControllerBus(System.String,System.UInt32,System.UInt32,System.UInt32,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Boolean,System.Boolean,Smulator.Disk.SSD.Components.GarbageCollector+GCPolicyType,System.UInt32,System.UInt32,System.Double,Smulator.Disk.SSD.Components.SSDStatus,System.Double,System.Boolean,System.UInt32,Smulator.Disk.SSD.Components.PlaneAllocationSchemeType,Smulator.Disk.SSD.Components.BlockAllocationSchemeType,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,Smulator.Disk.SSD.NetworkGenerator.WorkloadParameterSet,System.String,Smulator.Disk.SSD.Components.FlashChip[][],System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="AL" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="125">In member 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'AL' in parameter name 'ALEtoDataStartTransitionTime' by changing it to 'al'.</Issue>
+            </Message>
+            <Message Id="Background" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="125">In member 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'Background' in parameter name 'BackgroundGCDisabled' by changing it to 'background'.</Issue>
+            </Message>
+            <Message Id="GC" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="125">In member 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'GC' in parameter name 'GCDisabled' by changing it to 'gc'.</Issue>
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="125">In member 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'GC' in parameter name 'GCType' by changing it to 'gc'.</Issue>
+            </Message>
+            <Message Id="MPR" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="125">In member 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'MPR' in parameter name 'MPREnabled' by changing it to 'mpr'.</Issue>
+            </Message>
+            <Message Id="MPW" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="125">In member 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'MPW' in parameter name 'MPWEnabled' by changing it to 'mpw'.</Issue>
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="125">In member 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'MPW' in parameter name 'useMPWGreedy' by changing it to 'Mpw'.</Issue>
+            </Message>
+            <Message Id="RGA" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="125">In member 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'RGA' in parameter name 'RGAConstant' by changing it to 'rga'.</Issue>
+            </Message>
+            <Message Id="RT" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="125">In member 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'RT' in parameter name 'RTLogFilePath' by changing it to 'rt'.</Issue>
+            </Message>
+            <Message Id="W" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="125">In member 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'W' in parameter name 'WEtoRBTransitionTime' by changing it to 'w'.</Issue>
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="125">In member 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'W' in parameter name 'WGreedyWindowSize' by changing it to 'w'.</Issue>
+            </Message>
+            <Message Id="Eto" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="125">In method 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the spelling of 'Eto' in parameter name 'ALEtoDataStartTransitionTime' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="125">In method 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the spelling of 'Eto' in parameter name 'WEtoRBTransitionTime' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="W" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="125">In method 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the spelling of 'W' in parameter name 'WEtoRBTransitionTime' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="125">In method 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the spelling of 'W' in parameter name 'WGreedyWindowSize' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="125">The 'this' parameter (or 'Me' in Visual Basic) of 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+            <Message Id="seed+1" TypeName="OperationsShouldNotOverflow" Category="Microsoft.Usage" CheckId="CA2233" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="128">Correct the potential overflow in the operation 'seed+1' in 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)'.</Issue>
+             <Issue Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="156">Correct the potential overflow in the operation 'seed+1' in 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)'.</Issue>
+            </Message>
+            <Message Id="41" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'ControllerGenerator.BuildControllerBus(string, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', validate parameter 'workloadProperties' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BuildControllerNoSSD(System.String,System.UInt32,Smulator.Disk.SSD.NetworkGenerator.ControllerParameterSet,Smulator.Disk.SSD.NetworkGenerator.FlashChipParameterSet,Smulator.Disk.SSD.NetworkGenerator.NetworkParameterSet,Smulator.Disk.SSD.Components.FlashChip[][],System.String,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="RT" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="195">In member 'ControllerGenerator.BuildControllerNoSSD(string, uint, ControllerParameterSet, FlashChipParameterSet, NetworkParameterSet, FlashChip[][], string, int)', correct the casing of 'RT' in parameter name 'RTLogFilePath' by changing it to 'rt'.</Issue>
+            </Message>
+            <Message Id="SSD" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="195">Correct the casing of 'SSD' in member name 'ControllerGenerator.BuildControllerNoSSD(string, uint, ControllerParameterSet, FlashChipParameterSet, NetworkParameterSet, FlashChip[][], string, int)' by changing it to 'Ssd'.</Issue>
+            </Message>
+            <Message Id="Params" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="195">In method 'ControllerGenerator.BuildControllerNoSSD(string, uint, ControllerParameterSet, FlashChipParameterSet, NetworkParameterSet, FlashChip[][], string, int)', correct the spelling of 'Params' in parameter name 'ctrlParams' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="195">In method 'ControllerGenerator.BuildControllerNoSSD(string, uint, ControllerParameterSet, FlashChipParameterSet, NetworkParameterSet, FlashChip[][], string, int)', correct the spelling of 'Params' in parameter name 'flashChipParams' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="195">In method 'ControllerGenerator.BuildControllerNoSSD(string, uint, ControllerParameterSet, FlashChipParameterSet, NetworkParameterSet, FlashChip[][], string, int)', correct the spelling of 'Params' in parameter name 'netParams' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="2" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'ControllerGenerator.BuildControllerNoSSD(string, uint, ControllerParameterSet, FlashChipParameterSet, NetworkParameterSet, FlashChip[][], string, int)', validate parameter 'ctrlParams' before using it.</Issue>
+            </Message>
+            <Message Id="3" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'ControllerGenerator.BuildControllerNoSSD(string, uint, ControllerParameterSet, FlashChipParameterSet, NetworkParameterSet, FlashChip[][], string, int)', validate parameter 'flashChipParams' before using it.</Issue>
+            </Message>
+            <Message Id="4" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'ControllerGenerator.BuildControllerNoSSD(string, uint, ControllerParameterSet, FlashChipParameterSet, NetworkParameterSet, FlashChip[][], string, int)', validate parameter 'netParams' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BuildControllerNoSSD(System.String,System.UInt32,System.UInt32,System.UInt32,Smulator.Disk.SSD.Components.DiskTopology,System.UInt64,System.UInt64,System.UInt64,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt64,System.UInt64,System.UInt64,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Boolean,System.Boolean,Smulator.Disk.SSD.Components.GarbageCollector+GCPolicyType,System.UInt32,System.UInt32,System.Double,Smulator.Disk.SSD.Components.SSDStatus,System.Double,System.Boolean,System.UInt32,Smulator.Disk.SSD.Components.PlaneAllocationSchemeType,Smulator.Disk.SSD.Components.BlockAllocationSchemeType,Smulator.Disk.SSD.Components.InjectionPolicyType,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,Smulator.Disk.SSD.NetworkGenerator.WorkloadParameterSet,System.String,Smulator.Disk.SSD.Components.FlashChip[][],System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Background" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">In member 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'Background' in parameter name 'BackgroundGCDisabled' by changing it to 'background'.</Issue>
+            </Message>
+            <Message Id="GC" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">In member 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'GC' in parameter name 'GCDisabled' by changing it to 'gc'.</Issue>
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">In member 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'GC' in parameter name 'GCType' by changing it to 'gc'.</Issue>
+            </Message>
+            <Message Id="MPR" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">In member 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'MPR' in parameter name 'MPREnabled' by changing it to 'mpr'.</Issue>
+            </Message>
+            <Message Id="MPW" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">In member 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'MPW' in parameter name 'MPWEnabled' by changing it to 'mpw'.</Issue>
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">In member 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'MPW' in parameter name 'useMPWGreedy' by changing it to 'Mpw'.</Issue>
+            </Message>
+            <Message Id="RGA" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">In member 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'RGA' in parameter name 'RGAConstant' by changing it to 'rga'.</Issue>
+            </Message>
+            <Message Id="RT" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">In member 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'RT' in parameter name 'RTLogFilePath' by changing it to 'rt'.</Issue>
+            </Message>
+            <Message Id="SSD" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">Correct the casing of 'SSD' in member name 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)' by changing it to 'Ssd'.</Issue>
+            </Message>
+            <Message Id="W" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">In member 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the casing of 'W' in parameter name 'WGreedyWindowSize' by changing it to 'w'.</Issue>
+            </Message>
+            <Message Id="Req" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">In method 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the spelling of 'Req' in parameter name 'cleanReqSize' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">In method 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the spelling of 'Req' in parameter name 'readReqSize' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">In method 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the spelling of 'Req' in parameter name 'writeReqHeaderSize' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="W" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">In method 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the spelling of 'W' in parameter name 'WGreedyWindowSize' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="k" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">In method 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the spelling of 'k' in parameter name 'k1' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">In method 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the spelling of 'k' in parameter name 'k2' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="n" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">In method 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', correct the spelling of 'n' in parameter name 'nVC' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">The 'this' parameter (or 'Me' in Visual Basic) of 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+            <Message Id="seed+1" TypeName="OperationsShouldNotOverflow" Category="Microsoft.Usage" CheckId="CA2233" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="298">Correct the potential overflow in the operation 'seed+1' in 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)'.</Issue>
+             <Issue Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="327">Correct the potential overflow in the operation 'seed+1' in 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)'.</Issue>
+            </Message>
+            <Message Id="channelWidth" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">Parameter 'channelWidth' of 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="pcDelay" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">Parameter 'pcDelay' of 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="switchDelay" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">Parameter 'switchDelay' of 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="totalRouterPipelineStagesDelay" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="ControllerGenerator.cs" Line="295">Parameter 'totalRouterPipelineStagesDelay' of 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="43" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'ControllerGenerator.BuildControllerNoSSD(string, uint, uint, uint, DiskTopology, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, bool, bool, GarbageCollector.GCPolicyType, uint, uint, double, SSDStatus, double, bool, uint, PlaneAllocationSchemeType, BlockAllocationSchemeType, InjectionPolicyType, bool, bool, bool, bool, bool, bool, WorkloadParameterSet, string, FlashChip[][], int)', validate parameter 'workloadProperties' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ControllerParameterSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#blockAllocationScheme" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'ControllerParameterSet.blockAllocationScheme' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#copyBackEnabled" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'ControllerParameterSet.copyBackEnabled' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GCProperties" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'ControllerParameterSet.GCProperties' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#HostBufferSize" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'ControllerParameterSet.HostBufferSize' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitialStaus" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'ControllerParameterSet.InitialStaus' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+            <Message Id="Staus" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Staus' in member name 'ControllerParameterSet.InitialStaus' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#injectionPolicy" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'ControllerParameterSet.injectionPolicy' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#interleaveEnabled" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'ControllerParameterSet.interleaveEnabled' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MPREnabled" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'ControllerParameterSet.MPREnabled' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MPWEnabled" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'ControllerParameterSet.MPWEnabled' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OverprovisionRatio" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'ControllerParameterSet.OverprovisionRatio' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#planeAllocationScheme" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'ControllerParameterSet.planeAllocationScheme' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WorkloadProperties" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'ControllerParameterSet.WorkloadProperties' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FlashChipGenerator" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#BuildNormalFlashChip(System.String,System.UInt32,System.UInt32,System.UInt32,Smulator.Disk.SSD.NetworkGenerator.FlashChipParameterSet,System.UInt64,Smulator.Disk.SSD.Components.FlashChip&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="6#" TypeName="DoNotPassTypesByReference" Category="Microsoft.Design" CheckId="CA1045" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="38">Consider a design that does not require that 'flashChip' be a reference parameter.</Issue>
+            </Message>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="38">In member 'FlashChipGenerator.BuildNormalFlashChip(string, uint, uint, uint, FlashChipParameterSet, ulong, ref FlashChip)', correct the casing of 'ID' in parameter name 'chipID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="38">In member 'FlashChipGenerator.BuildNormalFlashChip(string, uint, uint, uint, FlashChipParameterSet, ulong, ref FlashChip)', correct the casing of 'ID' in parameter name 'overallChipID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="38">In member 'FlashChipGenerator.BuildNormalFlashChip(string, uint, uint, uint, FlashChipParameterSet, ulong, ref FlashChip)', correct the casing of 'ID' in parameter name 'rowID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="Params" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="38">In method 'FlashChipGenerator.BuildNormalFlashChip(string, uint, uint, uint, FlashChipParameterSet, ulong, ref FlashChip)', correct the spelling of 'Params' in parameter name 'flashChipParams' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="flashChip" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="38">Parameter 'flashChip' of 'FlashChipGenerator.BuildNormalFlashChip(string, uint, uint, uint, FlashChipParameterSet, ulong, ref FlashChip)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="4" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'FlashChipGenerator.BuildNormalFlashChip(string, uint, uint, uint, FlashChipParameterSet, ulong, ref FlashChip)', validate parameter 'flashChipParams' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BuildNormalFlashChip(System.String,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt64,System.UInt64,System.UInt64,System.UInt64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="70">In member 'FlashChipGenerator.BuildNormalFlashChip(string, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong)', correct the casing of 'ID' in parameter name 'channelID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="70">In member 'FlashChipGenerator.BuildNormalFlashChip(string, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong)', correct the casing of 'ID' in parameter name 'localChipID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="70">In member 'FlashChipGenerator.BuildNormalFlashChip(string, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong)', correct the casing of 'ID' in parameter name 'overallChipID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="70">The 'this' parameter (or 'Me' in Visual Basic) of 'FlashChipGenerator.BuildNormalFlashChip(string, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BuildNoSSDFlashChip(System.String,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,Smulator.Disk.SSD.NetworkGenerator.FlashChipParameterSet,Smulator.Disk.SSD.NetworkGenerator.NetworkParameterSet)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="86">In member 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, FlashChipParameterSet, NetworkParameterSet)', correct the casing of 'ID' in parameter name 'channelID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="86">In member 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, FlashChipParameterSet, NetworkParameterSet)', correct the casing of 'ID' in parameter name 'localChipID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="86">In member 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, FlashChipParameterSet, NetworkParameterSet)', correct the casing of 'ID' in parameter name 'overallChipID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="SSD" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="86">Correct the casing of 'SSD' in member name 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, FlashChipParameterSet, NetworkParameterSet)' by changing it to 'Ssd'.</Issue>
+            </Message>
+            <Message Id="Params" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="86">In method 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, FlashChipParameterSet, NetworkParameterSet)', correct the spelling of 'Params' in parameter name 'flashChipParams' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="86">In method 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, FlashChipParameterSet, NetworkParameterSet)', correct the spelling of 'Params' in parameter name 'netParams' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="Reqs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="86">In method 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, FlashChipParameterSet, NetworkParameterSet)', correct the spelling of 'Reqs' in parameter name 'maxSimultaneousReqsNo' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="7" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, FlashChipParameterSet, NetworkParameterSet)', validate parameter 'flashChipParams' before using it.</Issue>
+            </Message>
+            <Message Id="8" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, FlashChipParameterSet, NetworkParameterSet)', validate parameter 'netParams' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BuildNoSSDFlashChip(System.String,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.Int32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt64,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32,System.UInt32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="151">In member 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, int, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, uint, uint)', correct the casing of 'ID' in parameter name 'channelID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="151">In member 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, int, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, uint, uint)', correct the casing of 'ID' in parameter name 'localChipID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="151">In member 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, int, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, uint, uint)', correct the casing of 'ID' in parameter name 'overallChipID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="SSD" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="151">Correct the casing of 'SSD' in member name 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, int, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, uint, uint)' by changing it to 'Ssd'.</Issue>
+            </Message>
+            <Message Id="Vc" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="151">In member 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, int, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, uint, uint)', correct the casing of 'Vc' in parameter name 'ejVcN' by changing it to 'VC'.</Issue>
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="151">In member 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, int, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, uint, uint)', correct the casing of 'Vc' in parameter name 'injVcN' by changing it to 'VC'.</Issue>
+            </Message>
+            <Message Id="Ack" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="151">In method 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, int, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, uint, uint)', correct the spelling of 'Ack' in parameter name 'cleanAckSize' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="151">In method 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, int, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, uint, uint)', correct the spelling of 'Ack' in parameter name 'writeAckSize' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="Req" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="151">In method 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, int, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, uint, uint)', correct the spelling of 'Req' in parameter name 'readReqSize' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="Reqs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="151">In method 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, int, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, uint, uint)', correct the spelling of 'Reqs' in parameter name 'maxSimultaneousReqsNo' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="Vc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="151">In method 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, int, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, uint, uint)', correct the spelling of 'Vc' in parameter name 'ejVcN' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="151">In method 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, int, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, uint, uint)', correct the spelling of 'Vc' in parameter name 'injVcN' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="ej" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="151">In method 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, int, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, uint, uint)', correct the spelling of 'ej' in parameter name 'ejVcN' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="inj" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="151">In method 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, int, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, uint, uint)', correct the spelling of 'inj' in parameter name 'injVcN' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="n" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="151">In method 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, int, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, uint, uint)', correct the spelling of 'n' in parameter name 'nVC' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="v" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="151">In method 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, int, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, uint, uint)', correct the spelling of 'v' in parameter name 'vCSize' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="e:\Arash\Papers\In Progress\CAL-GCMethod\Simulator\src\Xmulator.Disk.SSD.NetworkGenerator" File="FlashChipGenerator.cs" Line="151">The 'this' parameter (or 'Me' in Visual Basic) of 'FlashChipGenerator.BuildNoSSDFlashChip(string, uint, uint, uint, uint, uint, uint, int, uint, uint, uint, uint, uint, uint, uint, uint, ulong, ulong, ulong, ulong, ulong, uint, uint, uint, uint, uint, uint, uint, uint, uint)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FlashChipParameterSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#blockEraseLatency" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'FlashChipParameterSet.blockEraseLatency' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#blockNoPerPlane" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'FlashChipParameterSet.blockNoPerPlane' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#dieNoPerChip" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'FlashChipParameterSet.dieNoPerChip' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#pageCapacity" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'FlashChipParameterSet.pageCapacity' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#pageNoPerBlock" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'FlashChipParameterSet.pageNoPerBlock' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#pageReadLatency" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'FlashChipParameterSet.pageReadLatency' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#pageWriteLatency" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'FlashChipParameterSet.pageWriteLatency' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#planeNoPerDie" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'FlashChipParameterSet.planeNoPerDie' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GCParameterSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#BackgroundGCDisabled" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'GCParameterSet.BackgroundGCDisabled' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BackgroundGCThreshold" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'GCParameterSet.BackgroundGCThreshold' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GCDisabled" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'GCParameterSet.GCDisabled' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GCPolicy" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'GCParameterSet.GCPolicy' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RGAConstant" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'GCParameterSet.RGAConstant' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WGreedyWindowSize" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'GCParameterSet.WGreedyWindowSize' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="NetworkParameterSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#channelWidth" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'NetworkParameterSet.channelWidth' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#chipBufferDepth" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'NetworkParameterSet.chipBufferDepth' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#chipsCommunication" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'NetworkParameterSet.chipsCommunication' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#k1" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'NetworkParameterSet.k1' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#k2" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'NetworkParameterSet.k2' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#packetSize" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'NetworkParameterSet.packetSize' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#readTransferCycleTime" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'NetworkParameterSet.readTransferCycleTime' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#routingFunction" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'NetworkParameterSet.routingFunction' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#writeTransferCycleTime" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'NetworkParameterSet.writeTransferCycleTime' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="NotListedControllerParameterSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+           <Issue Name="CSharp2_0" Certainty="90" Level="Error">Because type 'NotListedControllerParameterSet' contains only 'static' members, mark it as 'static' to prevent the compiler from adding a default public constructor.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#cachingEnabled" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedControllerParameterSet.cachingEnabled' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DRAMCapacity" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedControllerParameterSet.DRAMCapacity' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#useCBGreedy" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedControllerParameterSet.useCBGreedy' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#useMPWGreedy" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedControllerParameterSet.useMPWGreedy' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="NotListedFlashChipParameters" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+           <Issue Name="CSharp2_0" Certainty="90" Level="Error">Because type 'NotListedFlashChipParameters' contains only 'static' members, mark it as 'static' to prevent the compiler from adding a default public constructor.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#blockEraseLimit" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedFlashChipParameters.blockEraseLimit' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="NotListedMessageGenerationParameterSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+           <Issue Name="CSharp2_0" Certainty="90" Level="Error">Because type 'NotListedMessageGenerationParameterSet' contains only 'static' members, mark it as 'static' to prevent the compiler from adding a default public constructor.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#temporalScale" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedMessageGenerationParameterSet.temporalScale' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="NotListedNetworkParameters" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+           <Issue Name="CSharp2_0" Certainty="90" Level="Error">Because type 'NotListedNetworkParameters' contains only 'static' members, mark it as 'static' to prevent the compiler from adding a default public constructor.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#ALEtoDataStartTransitionTime" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Eto" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Eto' in member name 'NotListedNetworkParameters.ALEtoDataStartTransitionTime' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.ALEtoDataStartTransitionTime' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#chipEjVcN" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Ej" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Ej' in member name 'NotListedNetworkParameters.chipEjVcN' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="Vc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Vc' in member name 'NotListedNetworkParameters.chipEjVcN' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.chipEjVcN' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#chipEnableTime" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.chipEnableTime' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#chipInjVcN" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Inj" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Inj' in member name 'NotListedNetworkParameters.chipInjVcN' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="Vc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Vc' in member name 'NotListedNetworkParameters.chipInjVcN' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.chipInjVcN' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cleanAckSize" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Ack" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Ack' in member name 'NotListedNetworkParameters.cleanAckSize' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.cleanAckSize' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cleanReqSize" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Req" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Req' in member name 'NotListedNetworkParameters.cleanReqSize' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.cleanReqSize' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#dummyBusyTime" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.dummyBusyTime' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#eraseCommandAddressCycleCount" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.eraseCommandAddressCycleCount' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#pcDelay" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.pcDelay' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#readCommandAddressCycleCount" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.readCommandAddressCycleCount' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#readDataOutputReadyTime" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.readDataOutputReadyTime' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#readReqSize" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Req" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Req' in member name 'NotListedNetworkParameters.readReqSize' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.readReqSize' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#readResponseHeaderSize" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.readResponseHeaderSize' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#swDelay" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="sw" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'sw' in member name 'NotListedNetworkParameters.swDelay' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.swDelay' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#totalRouterPipelineStagesDelay" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.totalRouterPipelineStagesDelay' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#vcN" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="vc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'vc' in member name 'NotListedNetworkParameters.vcN' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.vcN' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#wasteBitsNo" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.wasteBitsNo' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WEtoRBTransitionTime" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Eto" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Eto' in member name 'NotListedNetworkParameters.WEtoRBTransitionTime' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.WEtoRBTransitionTime' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#writeAckSize" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Ack" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Ack' in member name 'NotListedNetworkParameters.writeAckSize' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.writeAckSize' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#writeCommandAddressCycleCount" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.writeCommandAddressCycleCount' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#writeReqHeaderSize" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Req" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Req' in member name 'NotListedNetworkParameters.writeReqHeaderSize' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Warning">Consider making 'NotListedNetworkParameters.writeReqHeaderSize' non-public or a constant.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="RoutingFunctionEnum" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="IdentifiersShouldNotHaveIncorrectSuffix" Category="Microsoft.Naming" CheckId="CA1711" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+           <Issue Name="TypeNoAlternate" Certainty="95" Level="CriticalError">Rename type name 'RoutingFunctionEnum' so that it does not end in 'Enum'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SyntheticParameterSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#AddressDistParam1" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'SyntheticParameterSet.AddressDistParam1' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+            <Message Id="Dist" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Dist' in member name 'SyntheticParameterSet.AddressDistParam1' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="Param" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Param' in member name 'SyntheticParameterSet.AddressDistParam1' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AddressDistParam2" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'SyntheticParameterSet.AddressDistParam2' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+            <Message Id="Dist" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Dist' in member name 'SyntheticParameterSet.AddressDistParam2' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="Param" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Param' in member name 'SyntheticParameterSet.AddressDistParam2' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AddressDistType" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'SyntheticParameterSet.AddressDistType' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+            <Message Id="Dist" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Dist' in member name 'SyntheticParameterSet.AddressDistType' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#AverageRequestInterArrivalTime" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'SyntheticParameterSet.AverageRequestInterArrivalTime' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ReadPercentage" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'SyntheticParameterSet.ReadPercentage' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#reqSizeDistParam1" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'SyntheticParameterSet.reqSizeDistParam1' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+            <Message Id="Dist" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Dist' in member name 'SyntheticParameterSet.reqSizeDistParam1' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="Param" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Param' in member name 'SyntheticParameterSet.reqSizeDistParam1' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="req" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'req' in member name 'SyntheticParameterSet.reqSizeDistParam1' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#reqsizeDistParam2" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'SyntheticParameterSet.reqsizeDistParam2' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+            <Message Id="Dist" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Dist' in member name 'SyntheticParameterSet.reqsizeDistParam2' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="Param" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Param' in member name 'SyntheticParameterSet.reqsizeDistParam2' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="reqsize" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'reqsize' in member name 'SyntheticParameterSet.reqsizeDistParam2' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#reqSizeDistType" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'SyntheticParameterSet.reqSizeDistType' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+            <Message Id="Dist" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Dist' in member name 'SyntheticParameterSet.reqSizeDistType' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="req" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'req' in member name 'SyntheticParameterSet.reqSizeDistType' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TotalNumberOfRequests" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'SyntheticParameterSet.TotalNumberOfRequests' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TraceFileParameterSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#FoldAddress" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'TraceFileParameterSet.FoldAddress' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IgnoreUnallocatedReads" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'TraceFileParameterSet.IgnoreUnallocatedReads' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#percentageToBeSimulated" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'TraceFileParameterSet.percentageToBeSimulated' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ReplayCount" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'TraceFileParameterSet.ReplayCount' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WorkloadParameterSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#filePath" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'WorkloadParameterSet.filePath' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LoggingEnabled" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'WorkloadParameterSet.LoggingEnabled' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Mode" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'WorkloadParameterSet.Mode' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SyntheticGenerationProperties" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'WorkloadParameterSet.SyntheticGenerationProperties' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TraceBasedGenerationProperties" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'WorkloadParameterSet.TraceBasedGenerationProperties' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Type" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2015-01-03 07:05:09Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'WorkloadParameterSet.Type' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>Assemblies should have valid strong names</Name>
+   <Description>Either the assembly has no strong name, an invalid one, or the strong name is valid only because of the computer configuration. The assembly should not be deployed in this state. The most common causes of this are: 1) The assembly's contents were modified after it was signed. 2) The signing process failed. 3) The assembly was delay-signed. 4) A registry key existed that allowed the check to pass (where it would not have otherwise).</Description>
+   <Resolution Name="NoStrongName">Sign {0} with a strong name key.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182127(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051">
+   <Name>Do not declare visible instance fields</Name>
+   <Description>Instance fields that are visible outside of the type that declares them, limit your ability to change the implementation details for those data items. Use properties instead. They do not compromise usability or performance and they do provide flexibility in that they conceal the implementation details of the underlying data.</Description>
+   <Resolution Name="Default">Because field {0} is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182141(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotPassTypesByReference" Category="Microsoft.Design" CheckId="CA1045">
+   <Name>Do not pass types by reference</Name>
+   <Description>Although there are legitimate times to use reference parameters, such use frequently indicates a design that does not conform to the design guidelines for managed code.</Description>
+   <Resolution Name="Default">Consider a design that does not require that {0} be a reference parameter.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182146(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
+   <Name>Identifiers should be cased correctly</Name>
+   <Description>Type, namespace, and member identifiers are Pascal-cased. Parameter identifiers are camel-cased. Two letter acronyms within these identifiers should be upper-cased, for example, use System.IO instead of System.Io. Acronyms of three or more letters should be Pascal-cased, for example, use System.Xml instead of System.XML. The pascal-casing convention capitalizes the first letter of each word, as in BackColor. The camel-casing convention formats the first letter of the first word in lowercase and capitalizes the first letter of all subsequent words, as in backgroundColor. Although it may be common practice for some two letter acronyms to not be fully capitalized, violations of this rule should not be excluded for this reason. For example, 'DbConnection', is common but incorrect; use DBConnection. A violation of this rule might be required for compatibility with existing, non-managed symbol schemes. In general, however, these symbols should not be visible outside the assembly that uses them.</Description>
+   <Resolution Name="Assembly">Correct the casing of '{0}' in assembly name {1} by changing it to '{2}'.</Resolution>
+   <Resolution Name="Member">Correct the casing of '{0}' in member name {1} by changing it to '{2}'.</Resolution>
+   <Resolution Name="MemberParameter">In member {0}, correct the casing of '{1}' in parameter name {2} by changing it to '{3}'.</Resolution>
+   <Resolution Name="MemberParameterAbbreviation">In member {0}, correct the casing of '{1}' in parameter name {2} by changing it to '{3}'. '{3}' is an abbreviation and therefore is not subject to acronym casing guidelines.</Resolution>
+   <Resolution Name="Namespace">Correct the casing of '{0}' in namespace name '{1}' by changing it to '{2}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182240(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="85">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+   <Name>Identifiers should be spelled correctly</Name>
+   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
+   <Resolution Name="Assembly">Correct the spelling of '{0}' in assembly name {1}.</Resolution>
+   <Resolution Name="Member">Correct the spelling of '{0}' in member name {1} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberParameter">In method {0}, correct the spelling of '{1}' in parameter name {2} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="Namespace">Correct the spelling of '{0}' in namespace name '{1}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264492(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="namingrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldNotHaveIncorrectSuffix" Category="Microsoft.Naming" CheckId="CA1711">
+   <Name>Identifiers should not have incorrect suffix</Name>
+   <Description>Types that do not extend certain base types should not use reserved name suffixes. Types and members should not use 'Ex' or 'New' to distinguish them from an earlier version of the same API, instead, use a numeric suffix such as '2' or provide a more meaningful suffix. Concrete type implementations and members should not end 'Impl'. Members instead, should either consider using the suggested alternate 'Core' in replacement of 'Impl' or avoid any suffix at all.</Description>
+   <Resolution Name="TypeNoAlternate">Rename type name {0} so that it does not end in '{1}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182247(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="namingrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014">
+   <Name>Mark assemblies with CLSCompliantAttribute</Name>
+   <Description>Assemblies should explicitly state their CLS compliance using the CLSCompliant attribute. An assembly without this attribute is not CLS-compliant. Assemblies, modules, and types can be CLS-compliant even if some parts of the assembly, module, or type are not CLS-compliant. The following rules apply: 1) If the element is marked CLSCompliant, any noncompliant members must have the CLSCompliant attribute present with its argument set to false. 2) A comparable CLS-compliant alternative member must be supplied for each member that is not CLS-compliant.</Description>
+   <Resolution Name="Default">Mark {0} with CLSCompliant(true) because it exposes externally visible types.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182156(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822">
+   <Name>Mark members as static</Name>
+   <Description>Methods which do not access instance data or call instance methods can be marked as static (Shared in Visual Basic). After doing so, the compiler will emit non-virtual call sites to these members which will prevent a check at runtime for each call that ensures the current object pointer is non-null. This can result in a measurable performance gain for performance-sensitive code. In some cases, the failure to access the current object instance represents a correctness issue.</Description>
+   <Resolution Name="Default">The 'this' parameter (or 'Me' in Visual Basic) of {0} is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms245046(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211">
+   <Name>Non-constant fields should not be visible</Name>
+   <Description>Static fields should be constant unless you carefully manage access to the field using locks. Using static variables without making them thread safe can compromise execution state. This rule applies to managed code libraries. If the analyzed assembly is an application, it is usually safe to exclude violations of this rule.</Description>
+   <Resolution Name="Default">Consider making {0} non-public or a constant.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182353(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="OperationsShouldNotOverflow" Category="Microsoft.Usage" CheckId="CA2233">
+   <Name>Operations should not overflow</Name>
+   <Description>Arithmetic operations should not be done without first validating the operands to prevent overflow.</Description>
+   <Resolution Name="Default">Correct the potential overflow in the operation '{0}' in {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182354(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="usagerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801">
+   <Name>Review unused parameters</Name>
+   <Description>Review parameters in non-virtual methods that are not used in the method body to ensure no correctness exists around failure to access them. Unused parameters incur maintenance and performance costs. Sometimes a violation of this rule can point to an implementation bug in the method (i.e. the parameter should actually have been used in the method body). Exclude warnings of this rule if the parameter has to exist because of backward compatibility.</Description>
+   <Resolution Name="Default">Parameter {0} of {1} is never used. Remove the parameter or use it in the method body.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182268(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053">
+   <Name>Static holder types should not have constructors</Name>
+   <Description>Instances of types that define only static members do not need to be created. Many compilers will automatically add a public default constructor if no constructor is specified. To prevent this, adding an empty private constructor may be required.</Description>
+   <Resolution Name="CSharp2_0">Because type {0} contains only 'static' members, mark it as 'static' to prevent the compiler from adding a default public constructor.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182169(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062">
+   <Name>Validate arguments of public methods</Name>
+   <Description>All reference arguments passed to externally visible methods should be checked against null (Nothing in VB). If appropriate, throw a System.ArgumentNullException when the argument is null.</Description>
+   <Resolution Name="Default">In externally visible method {0}, validate parameter '{1}' before using it.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182182(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="11.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

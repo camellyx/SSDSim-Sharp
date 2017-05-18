@@ -1,0 +1,2 @@
+7.6.0.0: BAConstraintForMultiPlane parameter added to FTL. We can now execute multiplane operations with/without
+block address constraint.
